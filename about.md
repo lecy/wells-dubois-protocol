@@ -2,78 +2,27 @@
 title: "About"
 ---
 
-This project represents a collaboration between:
 
-**Jesse Lecy**   
-Associate Professor, Arizona State Univ.  
-Nonprofit Studies and Data Science  
+**Thema Monroe-White**
 
-**Ji Ma**  
-Assistant Professor, UT Austin LBJ School  
-Philanthropic and Nonprofit Studies  
+Department of Technology, Entrepreneurship, and Data Analytics
+Campbell School of Business
+Berry College, GA
 
-**Pamela Paxton**   
-Professor, UT Austin  
-Sociology  
+*Thema has over 10 years of combined evaluation, research and data analytics expertise from her years as a consultant, nonprofit leader, and instructor.  Dr. White's research is concerned with broadening participation in STEM-C fields, with a special emphasis on information technology, analytics and data science. She is particularly interested in the relationship between technology, entrepreneurship and the economic empowerment of underrepresented people of color. She presents regularly at professional and academic conferences and publishes in a wide variety of journals pertaining to equity and inclusion in STEM education, social entrepreneurship and innovation. Dr. White holds a PhD in Science, Technology and Innovation Policy from the Georgia Institute of Technology as well as Master’s and Bachelor’s degrees from Howard University.*
 
-**Francisco Santamarina**  
-PhD Student, Univ. of Washington  
-Data Analytics & Nonprofit Capacity  
-  
-**Eric Van Holm**  
-Assistant Professor, Univ. of New Orleans  
-Entrepreneurship and Public Policy 
+**Jesse D. Lecy**
+
+Director of the National Center for Charitable Statistics
+Senior Research Associate & Data Scientist at the Urban Institute
+Associate Professor in the School of Public Affairs, ASU 
+
+*Jesse's research focuses on managing public and nonprofit organizations for sustainability and impact. He examines the life cycle of nonprofits and NGOs including the entrepreneurial and start-up process, environmental conditions that support scale and sustainability, and dimensions of competition that lead to organizational decline or failure. A central theme in the work is how the dynamics of economic markets for grants shape nonprofit behaviors and impact program quality, as well as how public and nonprofit sector organizations conceptualize, measure, and report on effectiveness. He actively promotes open science in academics and data science in the public and nonprofit sectors. He is a co-founder of the Nonprofit Open Data Collective, Data Science for Public Service (DS4PS), and the ARNOVA Data and Analytics Section. He recently launched a new M.S. in Program Evaluation and Data Analytics at Arizona State University, a degree tailored to a social science audience that was designed to meet the growing demand for analytical skills in the public sector. He teaches courses in management, statistics, program evaluation, data science, GIS, and urban policy.*
 
 
-------
-
-[Nonprofit Open Data Collective](www.npdata.info) collaborators at large:
-
-**Nathan Grasse**  
-Associate Professor, Carleton University Canada  
-Nonprofit Finance & Management  
-
-**Julia Carboni**  
-Associate Professor, Syracuse Unversity  
-Nonprofit Studies and Collaborative Governance  
- 
-**David Borenstein, Ph.D.**  
-**Heather Kugelmass, Ph.D.**  
-Founders of [Open990](https://www.open990.com)  
-
------
-
-# Current Manuscripts
-
-Messamore, A., & Paxton, P. (2021). Surviving Victimization: How Service and Advocacy Organizations Describe Traumatic Experiences, 1998–2016. Social Currents, 8(1), 3-24.
-
-Santamarina, F. J., Lecy, J. D., & van Holm, E. J. (2021). How to Code a Million Missions: Developing Bespoke Nonprofit Activity Codes Using Machine Learning Algorithms. VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations, 1-10. [ [CODE](https://fjsantam.github.io/bespoke-npo-taxonomies/) ]
-
-Ma, J. (2021). Automated Coding Using Machine Learning and Remapping the US Nonprofit Sector: A Guide and Benchmark. Nonprofit and Voluntary Sector Quarterly, 50(3), 662-687.
-
-LePere-Schloop, M. (2021). Nonprofit role classification using mission descriptions and supervised machine learning. Nonprofit and Voluntary Sector Quarterly, 08997640211057393.
-
-Paxton, P., Velasco, K., & Ressler, R. (2019a). Form 990 Mission Glossary v.1. [Computer file]. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor].
-
-Paxton, P., Velasco, K., & Ressler, R. (2019b). Form 990 Mission Stemmer v.1. [Computer file]. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor].
-
-Lecy, J., Ashley, S. & Santamarina, F. (2019). “Do Nonprofit Missions Vary by the Political Ideology of Supporting Communities? Some Preliminary Results.” *Public Performance and Management Review.*  [ [PDF](https://github.com/Nonprofit-Open-Data-Collective/machine_learning_mission_codes/raw/master/docs/papers/Lecy%20Ashley%20Santamarina%20-%20PPMR%202019.pdf) ]
 
 
-# Related Work
 
-Ren, C., & Bloemraad, I. (2022). New Methods and the Study of Vulnerable Groups: Using Machine Learning to Identify Immigrant-Oriented Nonprofit Organizations. Socius, 8, 23780231221076992. [ [PDF](https://journals.sagepub.com/doi/pdf/10.1177/23780231221076992) ]
-
-Ashley, S. & Boyd, C. (2021) Addressing Racial Funding Gaps in the Nonprofit Sector Requires New Data Approaches. [ [Urban Institute Blog](https://www.urban.org/urban-wire/addressing-racial-funding-gaps-nonprofit-sector-requires-new-data-approaches) ] [ [Racial Equity Analytics Lab](https://www.urban.org/racial-equity-analytics-lab) ]
-
------
-
-# Acknowledgements
-
-
-The Aspen Institute has been instrumental for their efforts to [advocate for better data](https://www.philanthropy.com/article/House-Bill-Would-Require/243152) and [promote the work of open data](https://www.aspeninstitute.org/blog-posts/open-nonprofit-data-opens-doors-for-researchers/).
-
-Many people and groups have worked hard to make [IRS 990 e-filing](https://www.urban.org/urban-wire/proposed-nonprofit-form-990-e-filing-requirement-can-benefit-nonprofits-and-their-funders) possible, [new data sources](https://www.urban.org/urban-wire/filling-gaps-nonprofit-data) accessible, and [new partnerships](https://registry.opendata.aws/irs990/) productive. 
 
 
 
