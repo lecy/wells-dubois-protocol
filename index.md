@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Methods
+title: The Protocol
 ---
 
 ## The Wells-Du Bois Protocol: Mitigating Biased Practices in Data Science
