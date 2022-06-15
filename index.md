@@ -58,7 +58,7 @@ It is usually not possible to fix the data. Once bias gets baked into the data, 
 
 Some bias-mitigation strategies might also be possible. In the policing case, for example, train the models using subsets of crimes that are more objective in nature like armed robberies. Compare those models to similar ones trained on crimes that are more subjective in nature, like traffic stops. That may help to quantify the amount of bias in the model. Predictions made from the models could then be corrected by reducing risk scores from that category of race by the level of bias estimated from the differences observed in risk associated with subjective versus objective outcomes. These techniques are commonly called “instrumental variables” in econometrics and are imperfect solutions. But beyond simply identifying and disclosing the problem while waiting for better data, they are one feasible approach to some level of bias mitigation.
 
-## Algorithmic Bias
+## Bad Algorithms (Algorithmic Bias)
 
 ------------
 
@@ -104,7 +104,7 @@ Models become misfits when they are optimized by minimizing the wrong type of er
 
 Harms of Misfit Models Mitigation: The ML community has developed many practices like cross-fold validation to avoid over-fitting and has evolved an ethos of valuing simple models or assemblages of simpler models that offer insights to experts and decision-makers over black-box oracles.
 
-## Human Intent
+## Bad People (Human Intent)
 
 ------------
 
