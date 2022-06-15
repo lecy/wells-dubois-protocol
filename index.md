@@ -30,6 +30,8 @@ The Wells-Du Bois protocol is a process by which authors or engineers can assess
 
 ## Bad Data
 
+------------
+
 ### (1) Inadequate Data
 
 Buolamwini and Gebru (2018) identified public harms caused by the deployment of facial recognition software that was calibrated with image databases that consisted of a larger number of light-skinned males than women and people with darker skin tones. As a result, the misclassification rate for darker-skinned female faces (34.7% error rate) was 43 times higher than lighter-skinned males (0.8% error rate). Poor performance that originates from lack of representation in training data disproportionately affects women of color.
@@ -55,6 +57,8 @@ It is usually not possible to fix the data. Once bias gets baked into the data, 
 Some bias-mitigation strategies might also be possible. In the policing case, for example, train the models using subsets of crimes that are more objective in nature like armed robberies. Compare those models to similar ones trained on crimes that are more subjective in nature, like traffic stops. That may help to quantify the amount of bias in the model. Predictions made from the models could then be corrected by reducing risk scores from that category of race by the level of bias estimated from the differences observed in risk associated with subjective versus objective outcomes. These techniques are commonly called “instrumental variables” in econometrics and are imperfect solutions. But beyond simply identifying and disclosing the problem while waiting for better data, they are one feasible approach to some level of bias mitigation.
 
 ## Algorithmic Bias
+
+------------
 
 ### (3) Harms of Identity Proxy
 
@@ -94,7 +98,9 @@ Harms of Misfit Models Mitigation: The ML community has developed many practices
 
 ## Human Intent
 
-### (6) Do no Harm
+------------
+
+### (6) Do No Harm
 
 Most data science failures are cases where models are biased in subtle ways or performance deviates from expectations. The first item in the checklist asks, however, is the intent of the deployment to cause harm? For example, Cambridge Analytica used sophisticated data analytics to target marginalized and minoritized populations with misinformation to create a sense of frustration with the political process and make it less likely for the targeted individuals to vote (Schneble et al., 2018). Similarly, spatial analytics can be used to gerrymander voting districts to distort representation. In both cases, the goals are to suppress votes and undermine the democratic process, which one can argue are nefarious goals. In these examples there are no algorithmic failures or undetected bias. The models perform perfectly well, but their intent is to disadvantage or harm a subpopulation.
 
