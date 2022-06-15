@@ -5,7 +5,11 @@ title: The Protocol
 
 ## The Wells-Du Bois Protocol: Mitigating Biased Practices in Data Science
 
-[Monroe-White, T., Lecy, J. The Wells-Du Bois Protocol for Machine Learning Bias: Building Critical Quantitative Foundations for Third Sector Scholarship. Voluntas (2022). https://doi.org/10.1007/s11266-022-00479-2](https://link.springer.com/article/10.1007/s11266-022-00479-2)
+----
+
+[*Monroe-White, T., Lecy, J. The Wells-Du Bois Protocol for Machine Learning Bias: Building Critical Quantitative Foundations for Third Sector Scholarship. Voluntas (2022). https://doi.org/10.1007/s11266-022-00479-2*](https://link.springer.com/article/10.1007/s11266-022-00479-2)
+
+-----
 
 Data science leverages approaches in statistics and computer science/information systems to create generalizable knowledge (Dhar, 2013). Myriad recent examples of bias in machine learning models or failed AI platforms have highlighted instances of public harms resulting from the unenlightened deployment of data science applications (O’Neil, 2016). Social scientists have a vested interest in these important considerations since they utilize data from, by, and about people, so algorithmic bias or failure can cause material harm to real people and impact lives.
 
