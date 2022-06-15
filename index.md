@@ -28,9 +28,11 @@ Assumedly social science publishing practices will evolve as research methodolog
 The Protocol
 The Wells-Du Bois protocol is a process by which authors or engineers can assess a project to identify potential sources of harm. The protocol does not ask authors or engineers to verify that the application is free of any problems. Rather, it suggests mitigation strategies for each type of potential harm when possible and promotes transparency when mitigation is not possible. In this way, it is a good faith threshold for mitigating biased research practices.
 
+------------
+
+
 ## Bad Data
 
-------------
 
 ### (1) Inadequate Data
 
@@ -58,9 +60,10 @@ It is usually not possible to fix the data. Once bias gets baked into the data, 
 
 Some bias-mitigation strategies might also be possible. In the policing case, for example, train the models using subsets of crimes that are more objective in nature like armed robberies. Compare those models to similar ones trained on crimes that are more subjective in nature, like traffic stops. That may help to quantify the amount of bias in the model. Predictions made from the models could then be corrected by reducing risk scores from that category of race by the level of bias estimated from the differences observed in risk associated with subjective versus objective outcomes. These techniques are commonly called “instrumental variables” in econometrics and are imperfect solutions. But beyond simply identifying and disclosing the problem while waiting for better data, they are one feasible approach to some level of bias mitigation.
 
-## Bad Algorithms (Algorithmic Bias)
-
 ------------
+
+
+## Bad Algorithms (Algorithmic Bias)
 
 ### (3) Harms of Identity Proxy
 
@@ -96,9 +99,10 @@ Publications that use machine learning classifiers should examine outcomes acros
 Mitigation starts with awareness or the issues that arise when subgroups have different baseline performances in the data and disclosure of baseline rates, as well as reporting model performance statistics separately for subgroups to quantify the extent of the difference. That would meet a minimal requirement of fairness operationalized as transparency.
 
 
-## Bad Models 
-
 ------------
+
+
+## Bad Models 
 
 
 ### (5) Harms of Misfit Models
@@ -108,10 +112,11 @@ Models become misfits when they are optimized by minimizing the wrong type of er
 **Misfit Models Mitigation**: The ML community has developed many practices like cross-fold validation to avoid over-fitting and has evolved an ethos of valuing simple models or assemblages of simpler models that offer insights to experts and decision-makers over black-box oracles.
 
 
+------------
+
 
 ## Bad Humans (Human Intent)
 
-------------
 
 ### (6) Do No Harm
 
@@ -125,7 +130,7 @@ Most data science failures are cases where models are biased in subtle ways or p
 
 In many cases, algorithms perform amazingly well on their intended tasks, but deployment does not consider potential harm, especially in sensitive racial or gender contexts. For example, Noble (2018) documents how Google’s keyword search algorithms returned pornographic and profane images as top results when “Black girls” or “Black women” were used as search terms. The search algorithm generally performed well in most contexts, but there was no proactive consideration for what might happen when deployed without safeguards in contexts where exploitation has been historically prevalent. The most pernicious examples of harmful practices are more likely unintended consequences that are difficult to anticipate when new technologies are deployed in unfamiliar or complex environments. Harms of ignorance are more aptly characterized as uncontemplated consequences—a sort of willful ignorance that results when scholars or engineers (composed primarily of While and Asian males) have not considered possible harms to minoritized groups (i.e., Asian women, Black males, etc.). Unintended consequences are hard to anticipate, whereas uncontemplated consequences could have been anticipated through a reasonable level of rumination.
 
-**Mitigating Harms of Ignorance**: Heath and Heath (2013) promote the use of pre-mortem analysis to avoid mistakes in business. These exercises occur prior to the launch of a new product or service, and require teams to sit down together and write a hypothetical obituary for the project. The exercise forces them ahead of time to determine the most likely reasons that a project will fail. This sort of brainstorming then allows the team to protect against the most likely threats to success as they begin to implement the project. Similarly, to mitigate harms of ignorance scholars or engineers should entertain the question, what’s the worst possible outcome that could result from this work? Are there specific groups that might be vulnerable to disproportionate harm by a failure of the algorithm? In the domain of research scholars should ask, could the data collected for this research, or the tools developed through the work be used for nefarious purposes?
+**Mitigating Harms of Ignorance**: Heath and Heath (2013) promote the use of pre-mortem analysis to avoid mistakes in business. These exercises occur prior to the launch of a new product or service, and require teams to sit down together and write a hypothetical obituary for the project. The exercise forces them ahead of time to determine the most likely reasons that a project will fail. This sort of brainstorming then allows the team to protect against the most likely threats to success as they begin to implement the project. Similarly, to mitigate harms of ignorance scholars or engineers should entertain the question, what’s the worst possible outcome that could result from this work? Are there specific groups that might be vulnerable to disproportionate harm by a failure of the algorithm? In the domain of research scholars should ask, could the data collected for this research, or the tools developed through the work be used for nefarious purposes that are different from their original intent?
 
 
 
