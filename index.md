@@ -152,10 +152,14 @@ In many cases, algorithms perform amazingly well on their intended tasks, but de
 ## References
 
 Agarwal, P. K. (2018). Public administration challenges in the world of AI and Bots. Public Administration Review, 78(6), 917-921.
+
 Angwin, J., Larson, J., Mattu, S., & Kirchner, L. (2016). Machine bias. ProPublica, May, 23(2016), 139-159.
-Banerjee, I., Bhimireddy, A. R., Burns, J. L., Celi, L. A., Chen, L. C., Correa, R., Gichoya, J. W. (2021). Reading race: AI recognises patient’s racial identity in medical images. arXiv preprint https://arxiv.org/abs/2107.10356
+
+Banerjee, I., Bhimireddy, A. R., Burns, J. L., Celi, L. A., Chen, L. C., Correa, R., Gichoya, J. W. (2021). Reading race: AI recognises patient’s racial identity in medical images. arXiv preprint https://arxiv.org/abs/2107.10356.
+
 Bansal, A., Agarwal, R., & Sharma, R. K. (2012, November). SVM based gender classification using iris images. In: 2012 fourth
 international conference on computational intelligence and communication networks (pp. 425–429). IEEE.
+
 Buolamwini, J., & Gebru, T. (2018, January). Gender shades: Intersectional accuracy disparities in commercial gender classification. In Conference on fairness, accountability and transparency (pp. 77-91).
 
 Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. Big Data, 5(2), 153–163.
