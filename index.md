@@ -13,19 +13,22 @@ title: The Protocol
 
 Data science leverages approaches in statistics and computer science/information systems to create generalizable knowledge (Dhar, 2013). Myriad recent examples of bias in machine learning models or failed AI platforms have highlighted instances of public harms resulting from the unenlightened deployment of data science applications (O’Neil, 2016). Social scientists have a vested interest in these important considerations since they utilize data from, by, and about people, so algorithmic bias or failure can cause material harm to real people and impact lives.
 
-The Wells-Du Bois protocol is an actionable approach to avoiding harms in data science application. It is a tool inspired by the simplicity and efficacy of similar parsimonious instruments such as the Bechdel test for gender bias (Agarwal, 2018), the Apgar Score for newborn infant health (Gawande et al., 2007; Regenbogen et al., 2009), and several examples discussed in Gawande’s Checklist Manifesto (Gawande, 2011). The core insight is that heuristic decision rules cannot perfectly detect or measure latent constructs like health or gender bias, but they are approximately as accurate as more sophisticated instruments that require more information or data that is hard to collect.
+The Wells-Du Bois protocol is an actionable approach to avoiding harms in data science application. It is a tool inspired by the simplicity and efficacy of similar parsimonious instruments such as the Bechdel test for gender bias (Kagan et al. 2020), the Apgar Score for newborn infant health (Gawande et al., 2007; Regenbogen et al., 2009), and several examples discussed in Gawande’s Checklist Manifesto (Gawande, 2011). The core insight is that heuristic decision rules cannot perfectly detect or measure latent constructs like health or gender bias, but they are approximately as accurate as more sophisticated instruments that require more information or data that is hard to collect.
 
 Data science applications can cause harm when predictions are bad, model performance varies across groups, or engineers have failed to consider nefarious uses of the tools they are building. It is a challenge to determine whether complex machine learning models are likely to fail in these ways because it requires time and resources to “stress-test” models and validate them in the real world. Developing mathematical or algorithmic tests for bias requires advanced computational and statistical expertise and a sufficient understanding of algorithmic fairness (ethics for data scientists). Solutions require the calibration of model goals more than model parameters since algorithmic fairness requires trade-offs in performance between subgroups in the data, not optimization of a global model performance metric. These tasks require expertise beyond reach for most applied data science teams or social science collaborations.
 
-The Wells-Du Bois (WDB) protocol is a stop-gap approach to a lack of broad data science capacity in a discipline or field. It uses a simple protocol to identify common harmful practices instead of explicit tests by experts or an attempt to be exhaustive. It is designed as a checklist approach to harm reduction undertaken by scholars or system engineers before manuscript submission or model deployment.
+The Wells-Du Bois (WDB) protocol is a stop-gap approach to the low-level of data science capacity in many social science disciplines or fields. It uses a simple protocol to identify common harmful practices instead of explicit tests by experts or an attempt to be exhaustive. It is designed as a checklist approach to harm reduction undertaken by scholars or system engineers before manuscript submission or model deployment.
 
-The goal is to capture the least onerous process that will prevent the most serious instances of data science harm. Users review the protocol before project deployment and assess whether there is a high likelihood of each type of data harm in their application, then decide whether they want to fix the issue or document and disclose the risk.
+**The goal of the protocol is to operationalize the least onerous process necessary to prevent the most serious instances of data science harm.** Users review the protocol before project deployment and assess whether there is a high likelihood of each type of data harm in their application, then decide whether they want to fix the issue or document and disclose the risk.
 
-Whereas social science journals have developed nuanced ways to report regression results to avoid bias from omitted variables or under-specified models, there is no equivalent reporting protocol for research generated with a large class of machine learning applications that are calibrated using predictive fit metrics. In the academic context, journals could also consider requiring authors to submit the protocol along with manuscripts that utilize machine learning algorithms as part of the peer-review process. In such a context, it would be near impossible for reviewers to detect harmful practices based on the type of information usually disclosed in a methodology section in quantitative studies.
+Whereas social science journals have developed nuanced ways to report regression models to avoid bias from omitted variables or misspecification, there is no equivalent reporting protocol for research generated with machine learning applications that are calibrated using predictive fit metrics. 
+
+In the academic context, journals could also consider requiring authors to submit the protocol along with manuscripts that utilize machine learning algorithms as part of the peer-review process. In such a context, it would be near impossible for reviewers to detect harmful practices based on the type of information usually disclosed in a methodology section of most quantitative studies. In such circumstances check-lists have proved to be highly-effective in harm reduction (Gawande, 2011). 
 
 Assumedly social science publishing practices will evolve as research methodologies evolve. As such, the WDB protocol is designed to seed discussions that will generate insights that move this conversation forward. There will ultimately be more durable solutions to these problems. In the meantime, it is an actionable step that requires a minimal amount of time and expertise to implement.
 
-The Protocol
+**The Protocol**
+
 The Wells-Du Bois protocol is a process by which authors or engineers can assess a project to identify potential sources of harm. The protocol does not ask authors or engineers to verify that the application is free of any problems. Rather, it suggests mitigation strategies for each type of potential harm when possible and promotes transparency when mitigation is not possible. In this way, it is a good faith threshold for mitigating biased research practices.
 
 ------------
@@ -141,5 +144,47 @@ In many cases, algorithms perform amazingly well on their intended tasks, but de
 
 **Mitigating Harms of Ignorance**: Heath and Heath (2013) promote the use of pre-mortem analysis to avoid mistakes in business. These exercises occur prior to the launch of a new product or service, and require teams to sit down together and write a hypothetical obituary for the project. The exercise forces them ahead of time to determine the most likely reasons that a project will fail. This sort of brainstorming then allows the team to protect against the most likely threats to success as they begin to implement the project. Similarly, to mitigate harms of ignorance scholars or engineers should entertain the question, what’s the worst possible outcome that could result from this work? Are there specific groups that might be vulnerable to disproportionate harm by a failure of the algorithm? In the domain of research scholars should ask, could the data collected for this research, or the tools developed through the work be used for nefarious purposes that are different from their original intent?
 
+<br> 
+------------
+
+<br>
+
+## References
+
+Agarwal, P. K. (2018). Public administration challenges in the world of AI and Bots. Public Administration Review, 78(6), 917-921.
+Angwin, J., Larson, J., Mattu, S., & Kirchner, L. (2016). Machine bias. ProPublica, May, 23(2016), 139-159.
+Banerjee, I., Bhimireddy, A. R., Burns, J. L., Celi, L. A., Chen, L. C., Correa, R., Gichoya, J. W. (2021). Reading race: AI recognises patient’s racial identity in medical images. arXiv preprint https://arxiv.org/abs/2107.10356
+Bansal, A., Agarwal, R., & Sharma, R. K. (2012, November). SVM based gender classification using iris images. In: 2012 fourth
+international conference on computational intelligence and communication networks (pp. 425–429). IEEE.
+Buolamwini, J., & Gebru, T. (2018, January). Gender shades: Intersectional accuracy disparities in commercial gender classification. In Conference on fairness, accountability and transparency (pp. 77-91).
+
+Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. Big Data, 5(2), 153–163.
+
+Christian, B. (2020). The alignment problem: Machine learning and human values. WW Norton & Company
+
+Dhar, V. (2013). Data science and prediction. Communications of the ACM, 56(12), 64-73.
+
+Dressel, J., & Farid, H. (2018). The accuracy, fairness, and limits of predicting recidivism. Science advances, 4(1), eaao5580.
+
+Gawande A. (2011). The Checklist Manifesto: How to Get Things Right. Metropolitan Books, New York: Holt and Company.
+
+Heath, C., & Heath, D. (2013). Decisive: How to make better choices in life and work. Random House.
+
+Kagan, D., Chesney, T. & Fire, M. Using data science to understand the film industry’s gender gap. Palgrave Commun 6, 92 (2020). https://doi.org/10.1057/s41599-020-0436-1
+
+Kleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores. arXiv preprint
+https://arxiv.org/abs/1609.05807
+
+Monroe-White, T. and Marshall, B. (2019). Data science intelligence: Mitigating public value failures using PAIR principles. Proceedings of the 2019 Pre-ICIS SIGDSA Symposium. 4._https://aisel.aisnet.org/sigdsa2019/4
+
+Noble, S. U. (2018). Algorithms of oppression: How search engines reinforce racism. NYU Press.
+
+O'neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
+
+Pleiss, G., Raghavan, M., Wu, F., Kleinberg, J., & Weinberger, K. Q. (2017). On fairness and calibration. arXiv preprint https://arxiv.org/abs/1709.02012
+
+Regenbogen, S. E., Ehrenfeld, J. M., Lipsitz, S. R., Greenberg, C. C., Hutter, M. M., & Gawande, A. A. (2009). Utility of the surgical apgar score: validation in 4119 patients. Archives of Surgery, 144(1), 30-36.
+
+Schneble, C. O., Elger, B. S., & Shaw, D. (2018). The cambridge analytica affair and Internet-mediated research. EMBO Reports, 19(8), e46579.
 
 
