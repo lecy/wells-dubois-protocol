@@ -121,8 +121,19 @@ Mitigation starts with awareness or the issues that arise when subgroups have di
 
 Models become misfits when they are optimized by minimizing the wrong type of error or preferencing the wrong outcome. Minimizing model error instead of maximizing model benefit. One of the lessons from the field of machine learning is that less accurate models are generally more useful. This relationship arises because of two model features: (1) model accuracy can be improved by overfitting data and (2) the most powerful machine learning models (e.g., neural networks) generate highly accurate results that no one understands and consequently are harder to translate into practice.
 
+The Harm of Misfit Models is a more specific case of the general issue regarding the trade-off of model accuracy and value. Specifically, model accuracy is measured as the rate of error produced by model predictions. It sounds simple enough, but it turns out that measuring accuracy is challenging as a result of different types of error and different costs associated with each. 
+ 
+When social or economic costs of false positives and false negatives differ in the model, especially if one specific type of error is high-stakes, then attention to model fit is important. For example, if 1% of woman have breast cancer at age 45 then a test that concludes that no women have breast cancer is 99% accurate and 100% useless. 
+
+A false positive in an initial screening (indications of cancer when the woman is healthy) will incur real costs such as invasive biopsies and expensive follow-up visits. But the costs are trivial compared to a false negative (failing to detect cancer that does exist) since it can result in death for the individual, extreme emotional and financial burden placed on her family, and loss of a member of society in their most productive years.
+
+Another example to consider is parole for an incarcerated individual. A false positive in a parole risk model suggest that an individual is likely to recidivate if released when in reality they are unlikely to further engage in criminal activity. A false negative occurs when individuals are deemed to be low risk by the algorithm but in reality are prone to violence or criminality and likely to recidivate. Do these two types of error have equal value to society, or should one be weighted more heavily? 
+
+Court systems must undertake the impossible task of balancing the social and economic costs of both types of errors. Incarcerating individuals longer than necessary violates civil liberties and increases the economic and social costs of incarceration. Costs of false positives disproportionately burden incarcerated individual and their families. Conversely, freeing individuals that are likely to recidivate will impose costs associated with crime and violence on communities. Parole risk models are typically calibrated on costs associated with the latter type of error, not the former. 
+
 **Misfit Models Mitigation**: The ML community has developed many practices like cross-fold validation to avoid over-fitting and has evolved an ethos of valuing simple models or assemblages of simpler models that offer insights to experts and decision-makers over black-box oracles.
 
+Predictive algorithms that fail to account for differential costs of error types are potentially harmful. To avoid harm authors should disclose the model fit criteria use for calibration. In the best case they would use an explicit link function that allows for model calibration that optimizes economic or social benefits instead of minimizing a type of error or maximizing accuracy. 
 
 ------------
 
