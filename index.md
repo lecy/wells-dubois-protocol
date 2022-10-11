@@ -131,9 +131,9 @@ Another example to consider is parole for an incarcerated individual. A false po
 
 Court systems must undertake the impossible task of balancing the social and economic costs of both types of errors. Incarcerating individuals longer than necessary violates civil liberties and increases the economic and social costs of incarceration. Costs of false positives disproportionately burden incarcerated individual and their families. Conversely, freeing individuals that are likely to recidivate will impose costs associated with crime and violence on communities. Parole risk models are typically calibrated on costs associated with the latter type of error, not the former. 
 
-**Misfit Models Mitigation**: The ML community has developed many practices like cross-fold validation to avoid over-fitting and has evolved an ethos of valuing simple models or assemblages of simpler models that offer insights to experts and decision-makers over black-box oracles.
+**Misfit Models Mitigation**: The ML community has developed many practices like cross-fold validation to avoid over-fitting and has evolved an ethos that values simple models or assemblages of simpler models that over black-box oracles that might be more accurate but impossible to interpret.
 
-Predictive algorithms that fail to account for differential costs of error types are potentially harmful. To avoid harm authors should disclose the model fit criteria use for calibration. In the best case they would use an explicit link function that allows for model calibration that optimizes economic or social benefits instead of minimizing a type of error or maximizing accuracy. 
+Predictive algorithms that fail to account for differential costs of error types are potentially harmful. To mitigate harm authors should disclose the model fit criteria use for calibration. In the best case they would use an explicit link function that assigns different values to different types of error so that models can be calibrated to optimize economic or social benefits instead of minimizing a specific type of error. 
 
 ------------
 
