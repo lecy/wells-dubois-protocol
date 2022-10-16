@@ -34,6 +34,9 @@ The Wells-Du Bois protocol is a process by which authors or engineers can assess
 ------------
 
 
+
+
+
 ## Bad Data
 
 
@@ -90,6 +93,7 @@ How pernicious is the problem? Some recent studies have shown how powerful machi
 These examples demonstrate how much information is unintentionally encoded in data. Amazon did not anticipate that gender would permeate all aspects of a candidate’s resume. Bansal and Banerjee’s teams were not designing medical imaging techniques that optimize detection of gender or race. They simply used archives of eye images or X-rays to demonstrate how powerful machine learning algorithms have become at detecting patterns that are invisible to experts. The lesson they demonstrate is that it is an unrealistic assumption that algorithms are not making predictions based on protected classes simply because variables like race, gender, or disability status are not explicitly present in models. Identity proxies are ubiquitous.
 
 **Identity Proxy Mitigation**: Instead of dropping a category like race from the model, assuming it solves the problem, test for the presence of identity proxies. Make race the dependent variable in the model while retaining the other covariates. If you can accurately predict race or another protected class with the remaining covariates in your model, identity proxies are present. Using predictive models when identity proxies are present violates the spirit of protections afforded to historically disadvantaged classes. When relevant to the research, report whether identity proxies can be detected in the data.
+
 
 ------------
 
@@ -157,6 +161,60 @@ In many cases, algorithms perform amazingly well on their intended tasks, but de
 
 Similarly, to mitigate harms of ignorance scholars or engineers should entertain the question, what’s the worst possible outcome that could result from this work? Are there specific groups that might be vulnerable to disproportionate harm by a failure of the algorithm? Scholars should ask, could the data collected for this research, or the tools developed through the work be used for nefarious purposes that are different from their original intent? It is impossible to anticipate every scenario or outcome, so mitigation would require a good faith effort to reduce willful ignorance of potential harms. 
 
+
+## High Stakes Games
+
+A recent ProPublica story details the increasing reliance on tenant screening algorithms in rental markets. Considering that 35% of American households are renters, 65% of households in the under-35 age group are renters, and almost everyone will be a renter at some point, the potential impact on housing markets is huge. 
+
+Regardless, this example demonstrates the challenges of loosely-regulated, market-driven deployments of machine learning and artificial intelligence at scale. 
+
+----------------
+
+[**ProPublica: How Your Shadow Credit Score Could Decide Whether You Get an Apartment**](https://www.propublica.org/article/how-your-shadow-credit-score-could-decide-whether-you-get-an-apartment)
+
+*The rapid rise of tenant screening is one of the seismic changes to hit the rental market since the Great Recession. As ProPublica has reported, private equity firms have poured into the multifamily apartment market, often driving up rents in search of greater profits than those typically sought by mom-and-pop landlords. Algorithms now often replace human judgment in deciding who qualifies for housing and how much rent costs.*
+
+*Nearly 2,000 companies offered background screening in 2019, most for either employment or tenant purposes, an industry survey found. It estimated that tenant screening brought in roughly $1 billion in annual revenue.*
+
+*A leading Texas-based property management tech firm, boasts that its algorithm uses artificial intelligence to “identify high-risk renters with greater accuracy.” The company says it uses a massive, proprietary database of 30 million lease outcomes, paired with consumer financial data, to evaluate rental applicants.*
+
+*Tenant score algorithms try to predict how risky it is to rent to a potential tenant based on characteristics they share with other tenants, according to an attorney and former Federal Trade Commission official whose law firm represents tenant screening companies.*
+
+*“A scoring model may find that certain characteristics help predict risk. They don’t predict it perfectly for every individual. Overall, they do a satisfactory job of predicting risk.”*
+
+*A retired regional property manager said it was typical that several times a month he would need to override denial recommendations from the screening service his firm used. Often, it was because people had medical debt, foreclosures or student loans but otherwise looked like good candidates.*
+
+*“If everything else looked clean to me, I would do an override,” said Withers, who oversaw thousands of apartments in Maryland and Virginia. Busy property managers may not realize that the screening service’s algorithm was set up in a way that would reject people who might be viable candidates.*
+
+*Tenant advocates say the **consumer data used by screening companies too often results in negative recommendations for reasons that are not proven indicators of how good a tenant someone would be**. One tenant in Washington state who contacted ProPublica received a screening letter that listed “too many different phone numbers reported” as a risk factor that contributed to lowering her tenant score.*
+
+---------------------
+
+As a demonstration of the utuility of the Wells-DuBois protocol, one could identify potential sources of harms in tenant screening algorithms by considering whether companies have explicitly addressed any of the items in the protocol: 
+
+**(1) Inadequate Data**: Since their data is proprietary it is impossible to tell whether data used to train algorithms are representative of the populations that are being screened with the algorithms. There are no current standards for data quality or representativeness used by commercial firms deploying algorithms at scale and no way for third parties to inspect proprietary data. In this context there were consistent complaints that data was often incomplete and inaccurate. If databases are built by linking lots of disparate data sources it is highly likely that data errors and data missingness are NOT random, which could lead to performance disparities across groups. 
+
+**(2) Tendentious Data**: Eviction decisions can be biased in myriad ways (Desmond, 2016), so using past eviction data can bake bias into the models. If any subgroup in the training data was targetted for eviction by landlords in the past then those decisions will shape the algorithms. For example, if a candidate is employed and has paid bills reliably, but grew up poor and is thus considered high-risk, the algorithm is punishing a person for their circumstance, not their actual actions. It is a form of profiling that is all but inevitable with predictive algorithms.  
+
+**(3) Identity Proxy**: Since the companies offering screening services build historic profiles of potentian tenants they will quickly acquire a rich set of composite variables that will serve as proxies for things like race or class, even if those indicators are excluded from the models explicitly. The presence of identity proxies can amplify the effects of tendentious data, especially if bias occurs in the dependent variable used to train models. Similar to how Amazon's resume screening program learned that it preferred male applicants and then became very good at identifying males even after every effort was made to scrub gender from the applications, many predictive algorithms could easily detect the race or socio-economic class of an applicant, which could then influence their score.  
+
+**(4) Harms of Subpopulation Difference**: Baseline rates of eviction will vary by subgroups in the data like class and race. If the models are calibrated on past eviction data then their accuracy will vary by subgroup. For example, if they fit models to minimize false negatives (those that are approved as being low-risk but end up requiring eviction), then the rates of false positives will vary by subgroup (people being denied applications because they are considered high-risk when in reality they would be a reliable tenant). Unless firms are addressing this problem with clear and intentional strategies then mathmatically it is impossible for predictive algorithms to produce **fair** results (equal rates of false positive and false negatives across subgroups) as opposed to **accurate** results (recommendations that do a good job at identifying a group of individuals that will include the high-risk renters but have no concern for those incorrectly classified as high-risk). 
+
+**(5) Harms of Misfit Models**: Related to the previous item, if rates of *balanced* accuracy (rates of both false positives and false negatives together) differ by subgroup then some subgroups will benefit from the algorithm and others will be burdened with higher search costs or prices. Screening algorithms are developed for landlords so they will primarily consider the **cost of false negatives** in the models since those will impact a landlord's bottom line. The **cost of false positives** are assumed by tenants through exclusion from residential opportunities in better neighborhoods (those more likely to promote economic mobility) or higher rents. There is virtually no recourse for an individual if their rental application is rejected for arbitrary or biased reasons. Thus the algorithm creates a type of zero-sum game between landlords and tenants since landlords are better off and tenants are worse off. 
+
+**(7) Harms of Ignorance:** Although the algorithms are unlikely designed with ill-intent (the explicit goal is to disadvantage a subgroup) the incentives are aligned toward calibrating models to produce results that benefit landlords and not tenants. If 2,000 firms are competing for $1 billion in this marketplace then it is challenging for a firm to calibrate their models to be more fair since there will be a trade-off between fairness and accuracy. Their customers are paying for accuracy, not fairness. Harm is also extremely hard to establish because you need to be able to argue that an applicant *would have been reliable if they would have been approved*, which is a hard counterfactual to prove. How often are these firms reflecting upon the systematic harms that might occur as a result of these algorithms being scaled? Is their ignorance of potential harms willful? As a test of their willingness to expel ignorance, are they willing to accept legal frameworks that would hold them accountable for damages if systematic harms were discovered? 
+
+------------
+
+The potential benefits of technological solutions to problems involving human discretion should not be ignored. Credit score algorithms how allowed banks to approve loans in real-time, for example, or in this case for renters to receive real-time screening to receive an immediate decision on their application. Reductions in transaction costs benefit all actors in markets. Artificial discretion can also standardize decision criteria and deter bad actors from using arbitrary or intentionally discriminatory criteria, making the market more predictable (Young et al. 2019). 
+
+The real concern is the potential impact of these types of algorithms in domains like housing markets. Even if errors are at the margins, if they are systematic and algorithms are deployed at scale then their impact will compound over time. O'Neil (2016) also notes that algorithms are being deployed more often to automate decisions that impact disadvantaged populations whereas those with resources and means are likely subject to human discretion. Those working with humans can scrutinize the process and advocate for themselves directly, whereas those operating in systems run by algorithms have fewer options without understanding what's inside the black box. In contexts where algorithms have a tangible impact on people's lives, tools like the Wells-DuBois protocol are important for training engineers that build the systems and regulators or consumer advocates that want to ensure they are fair. 
+
+
+
+
+
+
 <br> 
 ------------
 
@@ -179,6 +237,8 @@ Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias 
 
 Christian, B. (2020). The alignment problem: Machine learning and human values. WW Norton & Company
 
+Desmond, M. (2016). Evicted: Poverty and profit in the American city. Crown.
+
 Dhar, V. (2013). Data science and prediction. Communications of the ACM, 56(12), 64-73.
 
 Dressel, J., & Farid, H. (2018). The accuracy, fairness, and limits of predicting recidivism. Science advances, 4(1), eaao5580.
@@ -196,7 +256,7 @@ Monroe-White, T. and Marshall, B. (2019). Data science intelligence: Mitigating 
 
 Noble, S. U. (2018). Algorithms of oppression: How search engines reinforce racism. NYU Press.
 
-O'neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
+O'Neil, C. (2016). Weapons of math destruction: How big data increases inequality and threatens democracy. Broadway Books.
 
 Pleiss, G., Raghavan, M., Wu, F., Kleinberg, J., & Weinberger, K. Q. (2017). On fairness and calibration. arXiv preprint https://arxiv.org/abs/1709.02012
 
@@ -204,4 +264,4 @@ Regenbogen, S. E., Ehrenfeld, J. M., Lipsitz, S. R., Greenberg, C. C., Hutter, M
 
 Schneble, C. O., Elger, B. S., & Shaw, D. (2018). The cambridge analytica affair and Internet-mediated research. EMBO Reports, 19(8), e46579.
 
-
+Young, M. M., Bullock, J. B., & Lecy, J. D. (2019). Artificial discretion as a tool of governance: a framework for understanding the impact of artificial intelligence on public administration. Perspectives on Public Management and Governance, 2(4), 301-313.
