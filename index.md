@@ -5,6 +5,8 @@ title: The Protocol
 
 ## The Wells-Du Bois Protocol: Mitigating Biased Practices in Data Science
 
+{:toc}
+
 ----
 
 [*Monroe-White, T., Lecy, J. The Wells-Du Bois Protocol for Machine Learning Bias: Building Critical Quantitative Foundations for Third Sector Scholarship. Voluntas (2022). https://doi.org/10.1007/s11266-022-00479-2*](https://link.springer.com/article/10.1007/s11266-022-00479-2)
