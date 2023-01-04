@@ -171,14 +171,15 @@ In many cases, algorithms perform amazingly well on their intended tasks, but de
 
 Similarly, to mitigate harms of ignorance scholars or engineers should entertain the question, what’s the worst possible outcome that could result from this work? Are there specific groups that might be vulnerable to disproportionate harm by a failure of the algorithm? Scholars should ask, could the data collected for this research, or the tools developed through the work be used for nefarious purposes that are different from their original intent? It is impossible to anticipate every scenario or outcome, so mitigation would require a good faith effort to reduce willful ignorance of potential harms. 
 
+----------------
 
 ## High Stakes Games
 
-A recent ProPublica story details the increasing reliance on tenant screening algorithms in rental markets. Considering that 35% of American households are renters, 65% of households in the under-35 age group are renters, and almost everyone will be a renter at some point, the potential impact on housing markets is huge. 
+As an example of how these issues can impact citizens, a recent ProPublica story details the increasing reliance on tenant screening algorithms in rental markets. Considering that 65% of households in the under-35 age group are renters and almost everyone will be a renter at some point in their lives, the potential impact on housing markets is huge. 
 
-Regardless, this example demonstrates the challenges of loosely-regulated, market-driven deployments of machine learning and artificial intelligence at scale. 
+The case study demonstrates the challenges of loosely-regulated, market-driven deployments of machine learning and artificial intelligence at scale. 
 
-----------------
+
 
 [**ProPublica: How Your Shadow Credit Score Could Decide Whether You Get an Apartment**](https://www.propublica.org/article/how-your-shadow-credit-score-could-decide-whether-you-get-an-apartment)
 
