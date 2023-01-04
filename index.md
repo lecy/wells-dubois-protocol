@@ -74,7 +74,15 @@ Some bias-mitigation strategies might also be possible. In the policing case, fo
 
 > The researchers said that those training artificial intelligence models to recognise humans often turn to vast datasets available for free on the internet. But because the web is filled with inaccurate and overtly biased content, they said any algorithm built with such datasets could be infused with the same issues.
 
+[Facial recognition mistake leads to wrong man being arrested and thrown in jail for SIX days - despite never visiting Louisiana](https://www.dailymail.co.uk/news/article-11593521/Facial-recognition-technology-blamed-mistaken-arrest-Louisiana-purse-snatching-case.html)
 
+> Facial recognition systems have faced criticism because of their mass surveillance capabilities, which raise privacy concerns, and because some studies have shown that the technology is far more likely to misidentify Black and other people of color than white people, which has resulted in mistaken arrests.
+> 
+> A National Institute of Standards and Technology (NIST) study conducted in 2019 found two algorithms assigned the wrong gender to black females 35 percent of the time.
+> 
+> In July, New Orleans City Council voted to allow police to use facial recognition after several people complained about privacy issues, NOLA reported. Police can use facial recognition to identify suspects of violent crimes after all other tactics failed.
+> 
+> Louisiana authorities' use of facial recognition technology led to the mistaken arrest of a Georgia man on a fugitive warrant, an attorney said in a case that renews attention to racial disparities in the use of the digital tool. 
 
 
 ------------
