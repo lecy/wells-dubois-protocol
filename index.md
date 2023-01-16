@@ -48,6 +48,12 @@ Buolamwini and Gebru (2018) identified public harms caused by the deployment of 
 
 **Inadequate Data Mitigation**: Harm can be mitigated by representative training data in most cases, but in some instances minoritized and marginalized groups may need to be over-represented to achieve sample sizes necessary for accurate within-group inferences, especially in data-intensive models like neutral networks. Authors that use predictive algorithms can demonstrate harm-reduction strategies by (1) reporting sample sizes and descriptive statistics in training datasets broken down by group identities like race or gender, and (2) reporting performance in a similar way to demonstrate the level of model consistency across subgroups. More nuanced treatments would also include considerations of intersectionality through interactions of subgroup status like race and gender.
 
+**In the News**
+
+As an example of how errors can be high-stakes, [violations of hijab laws come with serious consequences but questionable due process regarding algorithm veracity](https://www.deseret.com/utah/2023/1/11/23550122/iran-using-facial-recognition-techology-enforce-hijab-law):
+
+> Iran’s Headquarters for Promoting Virtue and Preventing Vice, Mohammad Saleh Hashemi Golpayegani, announced in an interview that the government was planning to use surveillance technology against women in public places following a new decree signed by the country’s hardline president, Ebrahim Raisi, on restricting women’s clothing.
+
 ------------
 
 ### (2) Tendentious Data
