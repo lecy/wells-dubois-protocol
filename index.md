@@ -120,11 +120,11 @@ These examples demonstrate how much information is unintentionally encoded in da
 > 
 > Shadowbanning has been documented for years, but the journalists may have found a missing link to understand the phenomenon: biased AI algorithms. Social media platforms leverage algorithms to rate images and limit the reach of content that they consider too racy. AI algorithms seem to have a built-in gender bias, rating women more racy than images containing men.
 > 
-> **But what are these AI classifiers actually analyzing in the photos? When [a male subject was] photographed in long pants and with a bare chest, Microsoft’s algorithm had a confidence score lower than 22% for raciness. When he put on a bra the raciness score jumped to 97%. The algorithm gave a 99% score when the bra was held next to him**.
+> **But what are these AI classifiers actually analyzing in the photos? When [a male subject was] photographed in long pants and with a bare chest, Microsoft’s algorithm had a confidence score lower than 22% for raciness. When he put on a bra the raciness score jumped to 97%. The algorithm gave a 99% score when the bra was held next to him**. (**_identity proxies_**)
 > 
-> Margaret Mitchell, chief ethics scientist at the AI firm Hugging Face and former co-head of Google’s Ethical AI research group, believes that the photos used to train these algorithms were probably labeled by straight men, who may associate men working out with fitness, but may consider an image of a woman working out as racy. It’s also possible that these ratings seem gender biased in the US and in Europe because the labelers may have been from a place with a more conservative culture.  (**tendentious data**) 
+> Margaret Mitchell, chief ethics scientist at the AI firm Hugging Face and former co-head of Google’s Ethical AI research group, believes that the photos used to train these algorithms were probably labeled by straight men, who may associate men working out with fitness, but may consider an image of a woman working out as racy. It’s also possible that these ratings seem gender biased in the US and in Europe because the labelers may have been from a place with a more conservative culture.  (**_tendentious data_**) 
 > 
-> As a result, the social media companies that leverage these or similar algorithms have suppressed the reach of countless images featuring women’s bodies, and hurt female-led businesses – further amplifying societal disparities.
+> As a result, the social media companies that leverage these or similar algorithms suppress the reach of countless images featuring women’s bodies and potentially hurt female-led businesses, further amplifying societal disparities.
 
 
 ------------
