@@ -183,6 +183,16 @@ Most data science failures are cases where models are biased in subtle ways or p
 
 **Do No Harm Commitment**: Can you confirm that your true intent designing an algorithm matches the intent that is described in your manuscript or project documentation? Is the intent to benefit populations equally, or to advance objectives of fairness or justice?
 
+**Example:** 
+
+[Aims’: the software for hire that can control 30,000 fake online profiles](https://www.theguardian.com/world/2023/feb/15/aims-software-avatars-team-jorge-disinformation-fake-profiles?CMP=share_btn_tw)
+
+> Canaelan is a non-human bot linked to a vast army of fake social media profiles controlled by a software designed to spread “propaganda”.
+> 
+> Advanced Impact Media Solutions, or Aims, which controls more than 30,000 fake social media profiles, can be used to spread disinformation at scale and at speed. It is sold by “Team Jorge”, a unit of disinformation operatives based in Israel.
+> 
+> Tal Hanan, who runs the covert group using the pseudonym “Jorge”, told undercover reporters that they sold access to their software to unnamed intelligence agencies, political parties and corporate clients. One appears to have been sold to a client who wanted to discredit the UK’s Information Commissioner’s Office (ICO), a statutory watchdog.
+
 ------------
 
 ### (7) Harms of Ignorance
