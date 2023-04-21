@@ -56,9 +56,9 @@ As an example of how errors can be high-stakes, [violations of hijab laws come w
 
 [Inside the secret list of websites that make AI like ChatGPT sound smart](https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/)
 
-*AI chatbots have exploded in popularity over the past four months, stunning the public with their awesome abilities, from writing sophisticated term papers to holding unnervingly lucid conversations... They can mimic human speech because the artificial intelligence that powers them has ingested a gargantuan amount of text, mostly scraped from the internet. Tech companies have grown secretive about what they feed the AI.* 
+*AI chatbots have exploded in popularity over the past four months, stunning the public with their awesome abilities, from writing sophisticated term papers to holding unnervingly lucid conversations... They can mimic human speech because the artificial intelligence that powers them has ingested a gargantuan amount of text, mostly scraped from the internet.* 
 
-*Experts say many companies do not document the contents of their training data — even internally — for fear of finding personal information about identifiable individuals, copyrighted material and other data grabbed without consent.*
+*Tech companies have grown secretive about what they feed the AI. Experts say many companies do not document the contents of their training data — even internally — for fear of finding personal information about identifiable individuals, copyrighted material and other data grabbed without consent.*
 
 *The Washington Post believes it is important to present the complete contents of the data fed into AI models, which promise to govern many aspects of modern life. So we set out to analyze one of these data sets to fully reveal the types of proprietary, personal, and often offensive websites that go into an AI’s training data.*
 
