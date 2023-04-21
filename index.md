@@ -50,10 +50,6 @@ Buolamwini and Gebru (2018) identified public harms caused by the deployment of 
 
 **In the News**
 
-As an example of how errors can be high-stakes, [violations of hijab laws come with serious consequences but questionable due process regarding algorithm veracity](https://www.deseret.com/utah/2023/1/11/23550122/iran-using-facial-recognition-techology-enforce-hijab-law):
-
-> Iran’s Headquarters for Promoting Virtue and Preventing Vice, Mohammad Saleh Hashemi Golpayegani, announced in an interview that the government was planning to use surveillance technology against women in public places following a new decree signed by the country’s hardline president, Ebrahim Raisi, on restricting women’s clothing.
-
 [Inside the secret list of websites that make AI like ChatGPT sound smart](https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/)
 
 *AI chatbots have exploded in popularity over the past four months, stunning the public with their awesome abilities, from writing sophisticated term papers to holding unnervingly lucid conversations... They can mimic human speech because the artificial intelligence that powers them has ingested a gargantuan amount of text, mostly scraped from the internet.* 
@@ -86,6 +82,17 @@ What the filters missed
 
 *Meanwhile, The Post found that the filters failed to remove some troubling content, including the white supremacist site stormfront.org No. 27,505, the anti-trans site kiwifarms.net No. 378,986, and 4chan.org No. 4,339,889, the anonymous message board known for organizing targeted harassment campaigns against individuals.*
 
+<br> 
+
+As an example of how errors can be high-stakes, [violations of hijab laws come with serious consequences but questionable due process regarding algorithm veracity](https://www.deseret.com/utah/2023/1/11/23550122/iran-using-facial-recognition-techology-enforce-hijab-law):
+
+> Iran’s Headquarters for Promoting Virtue and Preventing Vice, Mohammad Saleh Hashemi Golpayegani, announced in an interview that the government was planning to use surveillance technology against women in public places following a new decree signed by the country’s hardline president, Ebrahim Raisi, on restricting women’s clothing.
+
+> The country’s national identity database, built in 2015, includes biometric data like face scans and is used for national ID cards and to identify people considered dissidents by authorities.
+
+> Mahsa Alimardani, who researches freedom of expression in Iran at the University of Oxford, has recently heard reports of women in Iran receiving citations in the mail for hijab law violations despite not having had an interaction with a law enforcement officer. 
+
+In instances like these there is no disclosure of sources of training data, no public reporting of accuracy rates, and no recourse if you are misidentified by an algorithm. 
 
 ------------
 
