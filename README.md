@@ -1,3 +1,7 @@
-# machine_learning_mission_codes
+# Wells DuBois Protocol
 
-This repository contains the machine learning code applied to nonprofit mission statements and showcased at the USC Center on Philanthropy & Public Policy's Philanthropy and Social Impact Symposium, March 2019, as well as the ARNOVA 2019 conference.
+This project contains a dynamic version of the Wells-DuBois Protocol that has been augmented with current events and new stories to provide concrete examples for the types of challenges highlighted by the protocol.
+
+
+
+
