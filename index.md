@@ -163,6 +163,21 @@ These examples demonstrate how much information is unintentionally encoded in da
 > 
 > As a result, the social media companies that leverage these or similar algorithms suppress the reach of countless images featuring women’s bodies and potentially hurt female-led businesses, further amplifying societal disparities.
 
+[AI Model Detects Mental Disorders Based on Web Posts](https://home.dartmouth.edu/news/2022/03/ai-model-detects-mental-disorders-based-web-posts)
+
+> Dartmouth researchers have built an artificial intelligence model for detecting mental disorders using conversations on Reddit, part of an emerging wave of screening tools that use computers to analyze social media posts and gain an insight into people’s mental states.
+> 
+> They trained their model to label the emotions expressed in users’ posts and map the emotional transitions between different posts, so a post could be labeled ‘joy,’ ‘anger,’ ‘sadness,’ ‘ fear,’ ‘no emotion,’ or a combination of these... Different emotional disorders have their own signature patterns of emotional transitions. By creating an emotional “fingerprint” for a user and comparing it to established signatures of emotional disorders, the model can detect them.
+
+In this example the researchers are explicitly trying to identify known emotional disorders in the study population. The important take-away is how the algorithms pick up on subtle changes in language to make predictions. 
+
+An identity proxy harm might arise when machine learning is used by companies to support decisions like admissions into competitive programs, lending decisions by banks, or tenant applications reviewed by landlords. Similar to Amazon's resume screening program that inadvertently penalized female engineers, AI platforms could unknowingly be basing their decisions upon whether individuals have experienced depression or anxiety in the past, an extremely problematic practice in most contexts.
+
+The algorithms detect patterns that are invisible to humans and correlate them with outcomes. Since the algorithms are often black boxes it is difficult to understand what the underlying patterns represent and whether the resulting decision heuristics produced by the machines are ethical or legal. For example, if a bank asked programmers to predict which of their clients suffered from depression and used the results to restrict access to credit they would be opening themselves up to lawsuits. If they use the same data to predict credit-worthiness while making no effort to understand the internal workings of the model they could end up with the exact same results but no understanding of the mechanisms and a diminished ability of humans using the algorithms to exercise discretion accordingly.  
+
+> 'Models are built around scrutinizing and relying on the content of the text, and while the models show high performance, they can also be misleading. For instance, if a model learns to correlate “COVID” with “sadness” or “anxiety,” Vosoughi explains, it will naturally assume that a scientist studying and posting (quite dispassionately) about COVID-19 is suffering from depression or anxiety.'
+
+For more examples of using social media data for psychological profiling see the excellent project [Apply Magic Sauce](https://applymagicsauce.com/demo).
 
 ------------
 
