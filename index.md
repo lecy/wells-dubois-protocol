@@ -121,27 +121,27 @@ Some bias-mitigation strategies might also be possible. In the policing case, fo
 
 News sites 
 
-*The News and Media category ranks third across categories. But half of the top 10 sites overall were news outlets: nytimes.com No. 4, latimes.com No. 6, theguardian.com No. 7, forbes.com No. 8, and huffpost.com No. 9. (Washingtonpost.com No. 11 was close behind.) Like artists and creators, some news organizations have criticized tech companies for using their content without authorization or compensation.*
-
-*Meanwhile, we found several media outlets that rank low on NewsGuard’s independent scale for trustworthiness: RT.com No. 65, the Russian state-backed propaganda site; breitbart.com No. 159, a well-known source for far-right news and opinion; and vdare.com No. 993, an anti-immigration site that has been associated with white supremacy.*
+> The News and Media category ranks third across categories. But half of the top 10 sites overall were news outlets: nytimes.com No. 4, latimes.com No. 6, theguardian.com No. 7, forbes.com No. 8, and huffpost.com No. 9. (Washingtonpost.com No. 11 was close behind.) Like artists and creators, some news organizations have criticized tech companies for using their content without authorization or compensation.
+> 
+> Meanwhile, we found several media outlets that rank low on NewsGuard’s independent scale for trustworthiness: RT.com No. 65, the Russian state-backed propaganda site; breitbart.com No. 159, a well-known source for far-right news and opinion; and vdare.com No. 993, an anti-immigration site that has been associated with white supremacy.
 
 Religious sites reflect a Western perspective
 
-*Sites devoted to community made up about 5 percent of categorized content, with religion dominating that category. Among the top 20 religious sites, 14 were Christian, two were Jewish and one was Muslim, one was Mormon, one was Jehovah’s Witness, and one celebrated all religions.*
-
-*The top Christian site, Grace to You (gty.org No. 164), belongs to Grace Community Church, an evangelical megachurch in California. Christianity Today recently reported that the church counseled women to “continue to submit” to abusive fathers and husbands and to avoid reporting them to authorities.*
+> Sites devoted to community made up about 5 percent of categorized content, with religion dominating that category. Among the top 20 religious sites, 14 were Christian, two were Jewish and one was Muslim, one was Mormon, one was Jehovah’s Witness, and one celebrated all religions.
+> 
+> The top Christian site, Grace to You (gty.org No. 164), belongs to Grace Community Church, an evangelical megachurch in California. Christianity Today recently reported that the church counseled women to “continue to submit” to abusive fathers and husbands and to avoid reporting them to authorities.
 
 Personal blogs
 
-*These online diaries ranged from professional to personal, like a blog called “Grumpy Rumblings,” co-written by two anonymous academics, one of whom recently wrote about how their partner’s unemployment affected the couple’s taxes. One of the top blogs offered advice for live-action role-playing games. Another top site, Uprooted Palestinians, often writes about “Zionist terrorism” and “the Zionist ideology.”*
+> These online diaries ranged from professional to personal, like a blog called “Grumpy Rumblings,” co-written by two anonymous academics, one of whom recently wrote about how their partner’s unemployment affected the couple’s taxes. One of the top blogs offered advice for live-action role-playing games. Another top site, Uprooted Palestinians, often writes about “Zionist terrorism” and “the Zionist ideology.”
 
 What the filters missed
 
-*Like most companies, Google heavily filtered the data before feeding it to the AI. (C4 stands for Colossal Clean Crawled Corpus.). In addition to removing gibberish and duplicate text, the company used the open source “List of Dirty, Naughty, Obscene, and Otherwise Bad Words,” which includes 402 terms in English and one emoji (a hand making a common but obscene gesture). Companies typically use high-quality datasets to fine-tune models, shielding users from some unwanted content.*
-
-*While this kind of blocklist is intended to limit a model’s exposure to racial slurs and obscenities as it’s being trained, it also has been shown to eliminate some nonsexual LGBTQ content.* 
-
-*Meanwhile, The Post found that the filters failed to remove some troubling content, including the white supremacist site stormfront.org No. 27,505, the anti-trans site kiwifarms.net No. 378,986, and 4chan.org No. 4,339,889, the anonymous message board known for organizing targeted harassment campaigns against individuals.*
+> Like most companies, Google heavily filtered the data before feeding it to the AI. (C4 stands for Colossal Clean Crawled Corpus.). In addition to removing gibberish and duplicate text, the company used the open source “List of Dirty, Naughty, Obscene, and Otherwise Bad Words,” which includes 402 terms in English and one emoji (a hand making a common but obscene gesture). Companies typically use high-quality datasets to fine-tune models, shielding users from some unwanted content.
+> 
+> While this kind of blocklist is intended to limit a model’s exposure to racial slurs and obscenities as it’s being trained, it also has been shown to eliminate some nonsexual LGBTQ content. 
+> 
+> Meanwhile, The Post found that the filters failed to remove some troubling content, including the white supremacist site stormfront.org No. 27,505, the anti-trans site kiwifarms.net No. 378,986, and 4chan.org No. 4,339,889, the anonymous message board known for organizing targeted harassment campaigns against individuals.
 
 ------------
 
