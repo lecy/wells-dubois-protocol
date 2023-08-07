@@ -35,9 +35,22 @@ Assumedly social science publishing practices will evolve as research methodolog
 
 The Wells-Du Bois protocol is a process by which authors or engineers can assess a project to identify potential sources of harm. The protocol does not ask authors or engineers to verify that the application is free of any problems. Rather, it suggests mitigation strategies for each type of potential harm when possible and promotes transparency when mitigation is not possible. In this way, it is a good faith threshold for mitigating biased research practices.
 
+**High Stakes**
+
+Bias in research limits our understanding of social phenomenon and our ability to design effective policy. Over the long-run, though, science can be self-correcting through replication, new studies, better data, and impoved methods. Frameworks that help us understand machine learning bias are more consequential in the real-world, however, where stakes may be high. 
+
+[Violations of hijab laws come with serious consequences but questionable due process regarding algorithm veracity](https://www.deseret.com/utah/2023/1/11/23550122/iran-using-facial-recognition-techology-enforce-hijab-law):
+
+> Iran’s Headquarters for Promoting Virtue and Preventing Vice, Mohammad Saleh Hashemi Golpayegani, announced in an interview that the government was planning to use surveillance technology against women in public places following a new decree signed by the country’s hardline president, Ebrahim Raisi, on restricting women’s clothing.
+
+> The country’s national identity database, built in 2015, includes biometric data like face scans and is used for national ID cards and to identify people considered dissidents by authorities.
+
+> Mahsa Alimardani, who researches freedom of expression in Iran at the University of Oxford, has recently heard reports of women in Iran receiving citations in the mail for hijab law violations despite not having had an interaction with a law enforcement officer. 
+
+_**Notably, in cases like this there is no record of training data, no disclosure of accuracy rates, and no recourse if you are misidentified by an algorithm.**_ 
+
+
 ------------
-
-
 
 
 
@@ -52,49 +65,25 @@ Buolamwini and Gebru (2018) identified public harms caused by the deployment of 
 
 **In the News**
 
-[Inside the secret list of websites that make AI like ChatGPT sound smart](https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/)
+[Eight Months Pregnant and Arrested After False Facial Recognition Match](https://www.nytimes.com/2023/08/06/business/facial-recognition-false-arrest.html)
 
-*AI chatbots have exploded in popularity over the past four months, stunning the public with their awesome abilities, from writing sophisticated term papers to holding unnervingly lucid conversations... They can mimic human speech because the artificial intelligence that powers them has ingested a gargantuan amount of text, mostly scraped from the internet.* 
+> Porcha Woodruff is the first woman known to be wrongfully accused as a result of facial recognition technology.
+> 
+> She was getting her two daughters ready for school when six police officers showed up at her door in Detroit. They asked her to step outside because she was under arrest for robbery and carjacking. “Are you kidding?” she recalled saying to the officers, said she gestured at her stomach to indicate how ill-equipped she was to commit such a crime: She was eight months pregnant.
+> 
+> After being charged in court with robbery and carjacking, Ms. Woodruff was released that evening on a $100,000 personal bond. In an interview, she said she went straight to the hospital where she was diagnosed with dehydration and given two bags of intravenous fluids. A month later, the Wayne County prosecutor dismissed the case against her.
 
-*Tech companies have grown secretive about what they feed the AI. Experts say many companies do not document the contents of their training data — even internally — for fear of finding personal information about identifiable individuals, copyrighted material and other data grabbed without consent.*
 
-*The Washington Post believes it is important to present the complete contents of the data fed into AI models, which promise to govern many aspects of modern life. So we set out to analyze one of these data sets to fully reveal the types of proprietary, personal, and often offensive websites that go into an AI’s training data.*
+[Facial recognition mistake leads to wrong man being arrested and thrown in jail for SIX days - despite never visiting Louisiana](https://www.dailymail.co.uk/news/article-11593521/Facial-recognition-technology-blamed-mistaken-arrest-Louisiana-purse-snatching-case.html)
 
-New sites 
+> In July, New Orleans City Council voted to allow police to use facial recognition after several people complained about privacy issues, NOLA reported. Police can use facial recognition to identify suspects of violent crimes after all other tactics failed.
+> 
+> Louisiana authorities' use of facial recognition technology led to the mistaken arrest of a Georgia man on a fugitive warrant, an attorney said in a case that renews attention to racial disparities in the use of the digital tool. 
+> 
+> Facial recognition systems have faced criticism because of their mass surveillance capabilities, which raise privacy concerns, and because some studies have shown that the technology is far more likely to misidentify Black and other people of color than white people, which has resulted in mistaken arrests.
+> 
+> A National Institute of Standards and Technology (NIST) study conducted in 2019 found two algorithms assigned the wrong gender to black females 35 percent of the time.
 
-*The News and Media category ranks third across categories. But half of the top 10 sites overall were news outlets: nytimes.com No. 4, latimes.com No. 6, theguardian.com No. 7, forbes.com No. 8, and huffpost.com No. 9. (Washingtonpost.com No. 11 was close behind.) Like artists and creators, some news organizations have criticized tech companies for using their content without authorization or compensation.*
-
-*Meanwhile, we found several media outlets that rank low on NewsGuard’s independent scale for trustworthiness: RT.com No. 65, the Russian state-backed propaganda site; breitbart.com No. 159, a well-known source for far-right news and opinion; and vdare.com No. 993, an anti-immigration site that has been associated with white supremacy.*
-
-Religious sites reflect a Western perspective
-
-*Sites devoted to community made up about 5 percent of categorized content, with religion dominating that category. Among the top 20 religious sites, 14 were Christian, two were Jewish and one was Muslim, one was Mormon, one was Jehovah’s Witness, and one celebrated all religions.*
-
-*The top Christian site, Grace to You (gty.org No. 164), belongs to Grace Community Church, an evangelical megachurch in California. Christianity Today recently reported that the church counseled women to “continue to submit” to abusive fathers and husbands and to avoid reporting them to authorities.*
-
-Personal blogs
-
-*These online diaries ranged from professional to personal, like a blog called “Grumpy Rumblings,” co-written by two anonymous academics, one of whom recently wrote about how their partner’s unemployment affected the couple’s taxes. One of the top blogs offered advice for live-action role-playing games. Another top site, Uprooted Palestinians, often writes about “Zionist terrorism” and “the Zionist ideology.”*
-
-What the filters missed
-
-*Like most companies, Google heavily filtered the data before feeding it to the AI. (C4 stands for Colossal Clean Crawled Corpus.). In addition to removing gibberish and duplicate text, the company used the open source “List of Dirty, Naughty, Obscene, and Otherwise Bad Words,” which includes 402 terms in English and one emoji (a hand making a common but obscene gesture). Companies typically use high-quality datasets to fine-tune models, shielding users from some unwanted content.*
-
-*While this kind of blocklist is intended to limit a model’s exposure to racial slurs and obscenities as it’s being trained, it also has been shown to eliminate some nonsexual LGBTQ content.* 
-
-*Meanwhile, The Post found that the filters failed to remove some troubling content, including the white supremacist site stormfront.org No. 27,505, the anti-trans site kiwifarms.net No. 378,986, and 4chan.org No. 4,339,889, the anonymous message board known for organizing targeted harassment campaigns against individuals.*
-
-<br> 
-
-As an example of how errors can be high-stakes, [violations of hijab laws come with serious consequences but questionable due process regarding algorithm veracity](https://www.deseret.com/utah/2023/1/11/23550122/iran-using-facial-recognition-techology-enforce-hijab-law):
-
-> Iran’s Headquarters for Promoting Virtue and Preventing Vice, Mohammad Saleh Hashemi Golpayegani, announced in an interview that the government was planning to use surveillance technology against women in public places following a new decree signed by the country’s hardline president, Ebrahim Raisi, on restricting women’s clothing.
-
-> The country’s national identity database, built in 2015, includes biometric data like face scans and is used for national ID cards and to identify people considered dissidents by authorities.
-
-> Mahsa Alimardani, who researches freedom of expression in Iran at the University of Oxford, has recently heard reports of women in Iran receiving citations in the mail for hijab law violations despite not having had an interaction with a law enforcement officer. 
-
-In instances like these there is no disclosure of sources of training data, no public reporting of accuracy rates, and no recourse if you are misidentified by an algorithm. 
 
 ------------
 
@@ -122,15 +111,37 @@ Some bias-mitigation strategies might also be possible. In the policing case, fo
 
 > The researchers said that those training artificial intelligence models to recognise humans often turn to vast datasets available for free on the internet. But because the web is filled with inaccurate and overtly biased content, they said any algorithm built with such datasets could be infused with the same issues.
 
-[Facial recognition mistake leads to wrong man being arrested and thrown in jail for SIX days - despite never visiting Louisiana](https://www.dailymail.co.uk/news/article-11593521/Facial-recognition-technology-blamed-mistaken-arrest-Louisiana-purse-snatching-case.html)
+[Inside the secret list of websites that make AI like ChatGPT sound smart](https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/)
 
-> In July, New Orleans City Council voted to allow police to use facial recognition after several people complained about privacy issues, NOLA reported. Police can use facial recognition to identify suspects of violent crimes after all other tactics failed.
-> 
-> Louisiana authorities' use of facial recognition technology led to the mistaken arrest of a Georgia man on a fugitive warrant, an attorney said in a case that renews attention to racial disparities in the use of the digital tool. 
-> 
-> Facial recognition systems have faced criticism because of their mass surveillance capabilities, which raise privacy concerns, and because some studies have shown that the technology is far more likely to misidentify Black and other people of color than white people, which has resulted in mistaken arrests.
-> 
-> A National Institute of Standards and Technology (NIST) study conducted in 2019 found two algorithms assigned the wrong gender to black females 35 percent of the time.
+*AI chatbots have exploded in popularity over the past four months, stunning the public with their awesome abilities, from writing sophisticated term papers to holding unnervingly lucid conversations... They can mimic human speech because the artificial intelligence that powers them has ingested a gargantuan amount of text, mostly scraped from the internet.* 
+
+*Tech companies have grown secretive about what they feed the AI. Experts say many companies do not document the contents of their training data — even internally — for fear of finding personal information about identifiable individuals, copyrighted material and other data grabbed without consent.*
+
+*The Washington Post believes it is important to present the complete contents of the data fed into AI models, which promise to govern many aspects of modern life. So we set out to analyze one of these data sets to fully reveal the types of proprietary, personal, and often offensive websites that go into an AI’s training data.*
+
+News sites 
+
+*The News and Media category ranks third across categories. But half of the top 10 sites overall were news outlets: nytimes.com No. 4, latimes.com No. 6, theguardian.com No. 7, forbes.com No. 8, and huffpost.com No. 9. (Washingtonpost.com No. 11 was close behind.) Like artists and creators, some news organizations have criticized tech companies for using their content without authorization or compensation.*
+
+*Meanwhile, we found several media outlets that rank low on NewsGuard’s independent scale for trustworthiness: RT.com No. 65, the Russian state-backed propaganda site; breitbart.com No. 159, a well-known source for far-right news and opinion; and vdare.com No. 993, an anti-immigration site that has been associated with white supremacy.*
+
+Religious sites reflect a Western perspective
+
+*Sites devoted to community made up about 5 percent of categorized content, with religion dominating that category. Among the top 20 religious sites, 14 were Christian, two were Jewish and one was Muslim, one was Mormon, one was Jehovah’s Witness, and one celebrated all religions.*
+
+*The top Christian site, Grace to You (gty.org No. 164), belongs to Grace Community Church, an evangelical megachurch in California. Christianity Today recently reported that the church counseled women to “continue to submit” to abusive fathers and husbands and to avoid reporting them to authorities.*
+
+Personal blogs
+
+*These online diaries ranged from professional to personal, like a blog called “Grumpy Rumblings,” co-written by two anonymous academics, one of whom recently wrote about how their partner’s unemployment affected the couple’s taxes. One of the top blogs offered advice for live-action role-playing games. Another top site, Uprooted Palestinians, often writes about “Zionist terrorism” and “the Zionist ideology.”*
+
+What the filters missed
+
+*Like most companies, Google heavily filtered the data before feeding it to the AI. (C4 stands for Colossal Clean Crawled Corpus.). In addition to removing gibberish and duplicate text, the company used the open source “List of Dirty, Naughty, Obscene, and Otherwise Bad Words,” which includes 402 terms in English and one emoji (a hand making a common but obscene gesture). Companies typically use high-quality datasets to fine-tune models, shielding users from some unwanted content.*
+
+*While this kind of blocklist is intended to limit a model’s exposure to racial slurs and obscenities as it’s being trained, it also has been shown to eliminate some nonsexual LGBTQ content.* 
+
+*Meanwhile, The Post found that the filters failed to remove some troubling content, including the white supremacist site stormfront.org No. 27,505, the anti-trans site kiwifarms.net No. 378,986, and 4chan.org No. 4,339,889, the anonymous message board known for organizing targeted harassment campaigns against individuals.*
 
 ------------
 
