@@ -162,7 +162,21 @@ These examples demonstrate how much information is unintentionally encoded in da
 
 **Identity Proxy Mitigation**: Instead of dropping a category like race from the model, assuming it solves the problem, test for the presence of identity proxies. Make race the dependent variable in the model while retaining the other covariates. If you can accurately predict race or another protected class with the remaining covariates in your model, identity proxies are present. Using predictive models when identity proxies are present violates the spirit of protections afforded to historically disadvantaged classes. When relevant to the research, report whether identity proxies can be detected in the data.
 
-**Example:** 
+**Examples:** 
+
+[Facebook’s Ad Algorithm Pushes Black Users to For-Profit Colleges](https://theintercept.com/2024/06/04/facebook-ads-algorithm-for-profit-colleges/)
+
+> Ever since a 2016 ProPublica report found Facebook allowed advertisers to explicitly exclude users from advertising campaigns based on their race, the company’s advertising system has been subject to increased scrutiny and criticism. And while Facebook ultimately removed options that allowed marketers to target users by race, previous academic research has shown that the secret algorithm that decides who sees which ads is biased along race and gender lines, suggesting bias intrinsic to the company’s systems.
+> 
+> In order to put Facebook’s black-box advertising system to the test, academics from Princeton and the University of Southern California purchased Facebook ads and tracked their performance among real Facebook users, a method they say produced “evidence of racial discrimination in Meta’s algorithmic delivery of ads for education opportunities, posing legal and ethical concerns.”
+> 
+> The researchers say they focused on for-profit colleges because of their long, demonstrable history of deceiving prospective students — particularly students of color — with predatory marketing while delivering lackluster educational outcomes and diminished job prospects compared to other colleges.
+
+> In a series of test marketing campaigns, the researchers purchased sets of two ads paired together: one for a public institution, like Colorado State University, and another marketing a for-profit company, like Strayer University (... they focused on for-profit colleges because of their long, demonstrable history of deceiving prospective students with predatory marketing while delivering lackluster educational outcomes and job prospects). 
+> 
+> Advertisers on Facebook can fine-tune their campaigns with a variety of targeting options, but race is no longer one of them. So the researchers found a clever proxy. Using North Carolina voter registration data that includes individuals’ races, the researchers built a sample audience that was 50 percent white and 50 percent Black. The Black users came from one region in North Carolina and white voters from another. Using Facebook’s “custom audiences” feature, they uploaded this roster of specific individuals to target with ads. Though Facebook’s ad performance metrics wouldn’t reveal the race of users who saw each ad, the data showed where each ad was viewed. “Whenever our ad is shown in Raleigh, we can infer it was shown to a Black person and, when it is shown in Charlotte — we can infer it was shown to a White person,” the paper explains.
+> 
+> Theoretically, an unbiased algorithm would serve each ads for each school to an equal number of Black and white users. The experiment was designed to see whether there was a statistically significant skew in which people ultimately saw which ads.
 
 [Investigation Finds AI Algorithms Objectify Women’s Bodies](https://www.theguardian.com/technology/2023/feb/08/biased-ai-algorithms-racy-women-bodies)
 
