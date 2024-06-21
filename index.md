@@ -49,6 +49,7 @@ Bias in research limits our understanding of social phenomenon and our ability t
 
 _**Notably, in cases like this there is no record of training data, no disclosure of accuracy rates, and no recourse if you are misidentified by an algorithm.**_ 
 
+Algorithms are increasingly deployed in these types of high stakes contexts with inadequate protections in place for instances in which the algorithms fail. As a result, we hope this framework and [similar tools](https://onlinelibrary.wiley.com/doi/10.1111/jiec.13509) will advance the development and use of generalizable protocols that can minimize technoharm in an increasingly digital world.   
 
 ------------
 
