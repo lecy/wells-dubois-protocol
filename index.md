@@ -283,6 +283,17 @@ In many cases, algorithms perform amazingly well on their intended tasks, but de
 
 Similarly, to mitigate harms of ignorance scholars or engineers should entertain the question, what’s the worst possible outcome that could result from this work? Are there specific groups that might be vulnerable to disproportionate harm by a failure of the algorithm? Scholars should ask, could the data collected for this research, or the tools developed through the work be used for nefarious purposes that are different from their original intent? It is impossible to anticipate every scenario or outcome, so mitigation would require a good faith effort to reduce willful ignorance of potential harms. 
 
+**Example:** 
+
+[Chatbots posing as therapists may encourage users to commit harmful acts, the nation’s largest psychological organization warned federal regulators.](https://www.nytimes.com/2025/02/24/health/ai-therapists-chatbots.html)
+
+> The nation’s largest association of psychologists this month warned federal regulators that A.I. chatbots “masquerading” as therapists, but programmed to reinforce, rather than to challenge, a user’s thinking, could drive vulnerable people to harm themselves or others.
+> 
+> In one case, a 14-year-old boy in Florida died by suicide after interacting with a character claiming to be a licensed therapist. In another, a 17-year-old boy with autism in Texas grew hostile and violent toward his parents during a period when he corresponded with a chatbot that claimed to be a psychologist. Both boys’ parents have filed lawsuits against the company.
+> 
+> Dr. Evans said he was alarmed at the responses offered by the chatbots. The bots, he said, failed to challenge users’ beliefs even when they became dangerous; on the contrary, they encouraged them. If given by a human therapist, he added, those answers could have resulted in the loss of a license to practice, or civil or criminal liability.
+
+
 ----------------
 
 ## High Stakes Games
